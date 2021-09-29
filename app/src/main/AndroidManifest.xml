@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Estilos">
         <activity
+            android:name=".ActivityTemas"
+            android:exported="true" />
+        <activity
+            android:name=".ActividadTemas"
+            android:exported="true"
+            android:label="@string/title_activity_actividad_temas"
+            android:theme="@style/Theme.Estilos.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

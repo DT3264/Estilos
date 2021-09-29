@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--   color para la barra superior y otros elementos -->
+    <color name="colorPrimary">#FF3700B3</color>
+
+    <!--   una variante obscura del color primario -->
+    <color name="colorPrimaryDark">#FF6200EE</color>
+
+    <!--   color secundario -->
+    <color name="colorAccent">#FFBB86FC</color>
+
 </resources>

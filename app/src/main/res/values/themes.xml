@@ -13,16 +13,16 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
     <style name="Titulos" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textSize" >26sp</item>
+        <item name="android:textSize">26sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#D8034EA8</item>
         <item name="android:fontFamily">serif</item>
         <item name="android:letterSpacing">.2</item>
         <item name="android:textAlignment">center</item>
     </style>
-    FFDC7A06
-    #C3BC25
+
     <style name="Botones" parent="TextAppearance.AppCompat.Button">
         <item name="android:backgroundTint">#662354E6</item>
         <item name="android:textColor">#FFFFFF</item>
@@ -31,13 +31,37 @@
         <item name="android:textSize">22sp</item>
         <item name="android:height">53sp</item>
     </style>
+
     <style name="Textos" parent="TextAppearance.AppCompat">
-        <item name="android:textSize" >17sp</item>
+        <item name="android:textSize">17sp</item>
         <item name="android:fontFamily">sans-serif-condensed-light</item>
         <item name="android:textAlignment">textStart</item>
     </style>
 
+    <style name="Theme.Estilos.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Estilos.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Estilos.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
+    <style name="Theme.MiTema" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">#3C00C4</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textViewStyle">@style/MiEstiloTextView</item>
+        <item name="android:textSize">25sp</item>
+        <!--   Todos los botones sin bordes     -->
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Small</item>
+    </style>
+
+    <style name="MiEstiloTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">#569C10</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 
 </resources>
